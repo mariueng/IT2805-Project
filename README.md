@@ -6,3 +6,17 @@ To get started copy the HTTPS link in the green code button above and type the f
 ```
 git clone https://github.com/mariueng/IT2805-Project.git
 ```
+
+# Documents
+The Documents-folder contains files related to specific deliveries such as P1, P2 and so forth.
+
+# Github Pages
+Github Pages is activated to host our website. The website itself can be found [here](https://www.google.com "Project 62 website").
+
+The following links are related to specific project deliveries:
+| Delivery | Link |
+| :---:    | :--: |
+| P1  |   https://mariueng.github.io/IT2805-Project/Documents/P1_requirements_62.html   |
+| P2  |      |
+| P3  |      |
+| P4  |      |
