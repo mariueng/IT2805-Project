@@ -7,7 +7,7 @@ body {
 header {
     margin-top: 0px;
     padding-top: -20px;
-    height: 100px;
+    height: 200px;
     background-color: #df0f00;
 }
 
@@ -40,17 +40,16 @@ h1 {
 }
 
 h2 {
-    padding-top: 25px;
     padding-left: 10px;
     font-size: 1.2em;
-    color: #1d1d1d;
+    color: whitesmoke;
 }
 
 
 h3 {
     padding-left: 10px;
     font-size: 0.8em;
-    color: #1d1d1d;
+    color: whitesmoke;
 }
 
 h4 {
