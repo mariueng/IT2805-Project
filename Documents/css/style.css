@@ -7,7 +7,7 @@ body {
 header {
     margin-top: 0px;
     padding-top: -20px;
-    height: 200px;
+    height: 100px;
     background-color: #df0f00;
 }
 
@@ -21,6 +21,7 @@ article {
     margin-right: auto;
     padding: 20px;
 }
+
 
 section {
     padding-top: 20px;
@@ -40,16 +41,17 @@ h1 {
 }
 
 h2 {
+    padding-top: 25px;
     padding-left: 10px;
     font-size: 1.2em;
-    color: whitesmoke;
+    color: #1d1d1d;
 }
 
 
 h3 {
     padding-left: 10px;
     font-size: 0.8em;
-    color: whitesmoke;
+    color: #1d1d1d;
 }
 
 h4 {
@@ -63,6 +65,13 @@ h4 {
 p {
     font-size: 0.9em;
     line-height: 2em;
+}
+table{
+    width: auto;
+}
+
+table, tr, td {
+    border:1px solid black;
 }
 
 #navbar {
@@ -85,3 +94,5 @@ p {
     background-color: #df0f00;
     color: white;
 }
+
+
