@@ -17,6 +17,6 @@ The following links are related to specific project deliveries:
 | Delivery | Link |
 | :---:    | :--: |
 | P1  |   https://mariueng.github.io/IT2805-Project/Documents/P1_requirements_62.html   |
-| P2  |      |
+| P2  |   https://mariueng.github.io/IT2805-Project/Documents/P2_design_62.html   |
 | P3  |      |
 | P4  |      |
