@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+
+h1 {
+    padding-top: 0px;
+    font-size: 3em;
+    text-align: center;
+    color: #37474F;
+    margin: 0;
+}
+
+h2 {
+    padding-top: 25px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #6d828c;
+}
+
+
+h3 {
+    padding-left: 10px;
+    font-size: 0.8em;
+    color: #1d1d1d;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #1d1d1d;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #333;
+}
+
+p {
+    font-size: 0.9em;
+    line-height: 2em;
+}
+table{
+    width: auto;
+}
+
+table, tr, td {
+    border:1px solid black;
+}
+
+
+#navbar{
+    background-color: #FFFFFF;
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid #bab9b9;
+    position: fixed;
+    top: 0;
+    transition: 0.3s;
+}
+
+label.logo {
+    color:#000000;
+    font-size: 20px;
+    line-height: 10px;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: #000000;
+    font-size: 20px;
+}
+
+nav ul li :hover{
+    font-weight: bold;
+}
+
+
+/* Content */
+#contact_registration{   
+    color:#37474F;
+    padding-top: 100px;
+}
+
+#faq{
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-right: auto;
+    
+}
+
+input{
+    border-radius: 3px;
+
+}
+
+div.form{
+    display: block;
+    text-align: center;
+
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    align-self: center;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(237, 230, 230);
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+#myBtn:hover {
+    background-color: rgb(153, 153, 153);
+}
+  
+
+
+
+
+
+/* Footer */
+
+.footer{
+    color: #d8d8d8;
+    background-color: #6D7074;
+    height: 300px;
+    margin-top: auto;
+
+
+}
+
+.footer .footer-content {
+    border: 1px solid red;
+    height: 300px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section {
+    flex: 1;
+    border: 1px solid white;
+    text-align: center;
+}
+
+
+
+
+
+@font-face{
+    font-family: "Lato";
+    src: url('698242188-Lato-Bla.eot');
+    src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'),
+    url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
+    url('698242188-Lato-Bla.woff') format('woff'),
+    url('698242188-Lato-Bla.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
