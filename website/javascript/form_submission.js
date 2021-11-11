@@ -1,6 +1,5 @@
 const formDiv = document.getElementById('forms-div');
-const form = document.getElementById('forms');
-const counter1 = document.getElementById('sign-counter');
+const form = document.getElementById('registrationForm');
 
 /* Event listeners */
 formDiv.addEventListener('submit', formSubmit);
@@ -10,30 +9,19 @@ function formSubmit(event) {
   event.preventDefault();
 
   const fullName = form[0].value;
-  const firstName = fullName.split(' ')[0];
   const email = form[1].value;
-  const subject = form[2].value.toLowerCase();
 
   formDiv.innerHTML = '';
 
   const response1 = document.createElement('p');
   response1.setAttribute('style', 'padding-top:30px')
-  response1.innerText = 'Tusen takk for din henvendelse, ' + firstName + '.';
+  response1.innerText = 'Thank you for getting in touch, ' + fullName + '.';
 
   const response2 = document.createElement('p');
-  response2.innerText = 'Du vil få svar på ' + subject + ' på epostadressen ' + email + ' så fort som mulig.'
-
-  const response3 = document.createElement('p');
-  const link = document.createElement('a');
-  link.setAttribute('onClick', 'resetForm()');
-  link.setAttribute('href', '#');
-  link.innerText = 'klikke her';
-  response3.innerText = 'Vil du sende en ny henvendelse kan du ';
-  response3.appendChild(link);
+  response2.innerText = "We'll send you an email on " + email + " as soon as possible."
 
   formDiv.appendChild(response1);
   formDiv.appendChild(response2);
-  formDiv.appendChild(response3);
 }
 
 /* Resets the form to the default */
@@ -44,5 +32,4 @@ function resetForm(event) {
     form[i].value = '';
   }
   formDiv.appendChild(form);
-  counter.innerText = 0;
 }

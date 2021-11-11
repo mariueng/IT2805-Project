@@ -279,6 +279,7 @@ div.form{
 }
 
 /* Contact content */
+
 .contact_registration {   
     color:#37474F;
     padding-top: 100px;
@@ -286,6 +287,11 @@ div.form{
 
 .contact_registration > h2 {
     text-align: center;
+}
+
+#send-it-btn {
+    color: white;
+    background-color: #FF725E;
 }
 
 /* Footer */
