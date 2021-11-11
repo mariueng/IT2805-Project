@@ -9,7 +9,7 @@
 html,body {
     height: 100%;
     font-family: 'Lato', sans-serif;
-    background-color: #f7f7f7;
+    background-color: #FFFFFF;
     margin: 0;
     padding-top: 40px;
     display: flex;
@@ -17,9 +17,6 @@ html,body {
 
 
 }
-
-
-
 
 h1 {
     padding-top: 0px;
@@ -32,7 +29,8 @@ h1 {
 h2 {
     padding-top: 25px;
     padding-left: 10px;
-    text-align: center;
+    padding-bottom: 10px;
+    text-align: left;
     font-size: 1.2em;
     color: #6d828c;
 }
@@ -64,6 +62,23 @@ table, tr, td {
     border:1px solid black;
 }
 
+hr {
+    display: block;
+    width: 25%;
+    border: 0;
+    height: 5px;
+    background-color: #4D5054;
+    border-color: #4D5054;
+    box-shadow: 0 0 10px 1px #4D5054;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: 3%;
+}
+
+.homepage-content-block > p {
+    padding-left: 3%;
+}
+
 
 #navbar{
     background-color: #FFFFFF;
@@ -73,6 +88,7 @@ table, tr, td {
     position: fixed;
     top: 0;
     transition: 0.3s;
+    margin-bottom: 0!important;
 }
 
 label.logo {
@@ -80,12 +96,14 @@ label.logo {
     font-size: 20px;
     line-height: 10px;
     padding: 0 20px;
+    text-align: left;
     font-weight: bold;
 }
 
 nav ul{
     float: right;
     margin-right: 20px;
+    margin-bottom: 0!important;
 }
 
 nav ul li{
@@ -145,11 +163,91 @@ div.form{
 #myBtn:hover {
     background-color: rgb(153, 153, 153);
 }
-  
 
+/* Homepage content */
 
+.homepage-content {
+    width: 100%;
+    margin: 0 auto;
+}
 
+.homepage-content-block {
+    width: 33%;
+    display: inline-block;
+    padding: 5%;
+    vertical-align: top;
+}
 
+.homepage-content-block-div-image {
+    width: 325px;
+    height: 326.86px;
+}
+
+/* Services content */
+
+.services-content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.services-content-block {
+    width: 100%;
+    display: inline-block;
+    padding: 5%;
+    margin-top: 0;
+}
+
+.services-content-block-div-image {
+    width: 350px;
+    height: 352px;
+}
+
+.services-content-block-div-text-right {
+    width: 50%;
+    margin-right: 10%;
+    text-align: right;
+    float: right;
+}
+
+.services-content-block-div-text-left {
+    width: 50%;
+    margin-left: 10%;
+    text-align: left;
+    float: left;
+}
+
+.services-content-block-div-left {
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 5%;
+    text-align: right;
+    float: left;
+}
+
+.services-content-block-div-right {
+    width: 20%;
+    margin-right: 10%;
+    margin-left: 5%;
+    text-align: left;
+    float: right;
+}
+
+/* About content */
+
+.crop {
+    top: 0px;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+
+#waves-img {
+    position: relative;
+    transform: rotate(90deg);
+    object-fit: scale-down;
+    width: 80%;
+    height: auto;
+}
 
 /* Footer */
 
